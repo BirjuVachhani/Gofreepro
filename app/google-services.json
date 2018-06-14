@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "1066229797093",
+    "firebase_url": "https://gofreepro-fde4f.firebaseio.com",
+    "project_id": "gofreepro-fde4f",
+    "storage_bucket": "gofreepro-fde4f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1066229797093:android:fdf3164b345340d2",
+        "android_client_info": {
+          "package_name": "myapplication.uma.gofree"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1066229797093-o60tacalu7efaoi7q8b9hfade96658lc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBV0yJ7DD8vbUed3WVM6GaqHJhEfdglYkM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

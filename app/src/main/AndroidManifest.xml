@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="myapplication.uma.gofree">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MyApplication17" />
+        <activity android:name=".location" />
+        <activity android:name=".Donar" />
+        <activity android:name=".Needy" />
+        <activity android:name=".Rater" />
+        <activity android:name=".Helper" />
+        <activity android:name=".complain" />
+        <activity
+            android:name=".employment_exchange"
+            android:label="@string/title_activity_employment_exchange"></activity>
+        <activity
+            android:name=".Login"
+            android:label="@string/title_activity_login"></activity>
+        <activity
+            android:name=".Register"
+            android:label="@string/title_activity_register"></activity>
+        <activity
+            android:name=".ERegister"
+            android:label="@string/title_activity_eregister"></activity>
+        <activity
+            android:name=".Matrimony"
+            android:label="Matrimony"></activity>
+        <activity android:name=".Travel"></activity>
+    </application>
+
+</manifest>

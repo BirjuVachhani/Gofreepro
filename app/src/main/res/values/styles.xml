@@ -1,0 +1,18 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+
+        <item name="colorPrimary">?attr/colorPrimaryDark</item>
+        <item name="android:colorBackground">@color/accent_material_dark</item>
+    </style>
+    <style name="MyCustomButton" parent="android:Widget.ImageButton">
+       <item name="android:background">@drawable/reg</item>
+    </style>
+
+    <style name="MyCustomTheme" parent="android:Widget.ImageButton">
+    ...
+    <item name="android:buttonStyle">@style/MyCustomButton</item>
+</style>
+
+</resources>

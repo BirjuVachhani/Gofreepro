@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="donate1" type="id">donate1</item>
+    <item name="help1" type="id">help1</item>
+    <item name="name1" type="id">name1</item>
+    <item name="age1" type="id">age1</item>
+    <item name="etitle1" type="id">etitle1</item>
+    <item name="cinfo1" type="id">cinfo1</item>
+    <item name="uname1" type="id">uname1</item>
+    <item name="pswd1" type="id">pswd1</item>
+    <item name="call" type="id">call</item>
+</resources>

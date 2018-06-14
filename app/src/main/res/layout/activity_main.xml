@@ -1,0 +1,157 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity">
+
+   <TextView android:text="Home"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:textSize="30dp"
+       android:id="@+id/text_home"
+       android:textStyle="bold"
+       android:layout_centerInParent="true"
+       android:layout_alignParentTop="true"
+       android:layout_centerHorizontal="true" />
+
+    <ImageButton
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:adjustViewBounds="true"
+        android:id="@+id/reg_image"
+        android:src="@drawable/reg"
+        android:layout_alignTop="@+id/loc_image"
+        android:layout_toLeftOf="@+id/text_home"
+        android:layout_toStartOf="@+id/text_home"
+        android:theme="@style/MyCustomTheme" />
+ <TextView
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:text="Registration"
+     android:textSize="20dp"
+     android:layout_marginLeft="50dp"
+     android:textStyle="bold"
+     android:layout_below="@+id/reg_image"
+     android:layout_marginTop="10dp"
+     android:id="@+id/textView13" />
+
+ <TextView
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:text="Employment Exchange"
+     android:textSize="20dp"
+     android:textStyle="bold"
+     android:layout_alignBaseline="@+id/textView12"
+     android:layout_alignBottom="@+id/textView12"
+     android:layout_alignLeft="@+id/textView9"
+     android:layout_alignStart="@+id/textView9"
+     android:layout_toLeftOf="@+id/textView12"
+     android:layout_toStartOf="@+id/textView12" />
+
+    <ImageButton
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:adjustViewBounds="true"
+        android:id="@+id/comp_image"
+        android:src="@drawable/comp"
+        android:layout_centerVertical="true"
+        android:layout_alignLeft="@+id/reg_image"
+        android:layout_alignStart="@+id/reg_image" />
+
+ <TextView
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:text="Complaint"
+     android:textSize="20dp"
+     android:layout_marginLeft="50dp"
+     android:textStyle="bold"
+     android:layout_below="@+id/comp_image"
+     android:layout_marginTop="10dp"
+     android:id="@+id/textView9" />
+
+    <ImageButton
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:adjustViewBounds="true"
+        android:id="@+id/emp_image"
+        android:src="@drawable/emp"
+        android:layout_marginTop="69dp"
+        android:layout_below="@+id/comp_image"
+        android:layout_alignLeft="@+id/comp_image"
+        android:layout_alignStart="@+id/comp_image" />
+
+    <ImageButton
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:adjustViewBounds="true"
+        android:id="@+id/loc_image"
+        android:src="@drawable/loc"
+        android:layout_marginBottom="52dp"
+        android:layout_above="@+id/tn_image"
+        android:layout_alignLeft="@+id/tn_image"
+        android:layout_alignStart="@+id/tn_image" />
+ <TextView
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:text="Location Rater"
+     android:layout_marginTop="-45dp"
+     android:layout_below="@+id/loc_image"
+     android:layout_alignStart="@+id/loc_image"
+     android:layout_alignLeft="@+id/loc_image"
+     android:textSize="20dp"
+     android:textStyle="bold"
+     android:id="@+id/textView10" />
+
+ <TextView
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:text="Travel Safety"
+     android:textSize="20dp"
+     android:textStyle="bold"
+     android:layout_marginRight="26dp"
+     android:layout_marginEnd="26dp"
+     android:layout_alignBaseline="@+id/textView9"
+     android:layout_alignBottom="@+id/textView9"
+     android:layout_alignRight="@+id/textView10"
+     android:layout_alignEnd="@+id/textView10"
+     android:id="@+id/textView11" />
+
+ <TextView
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:text="Matrimony"
+     android:layout_marginTop="19dp"
+     android:textSize="20dp"
+     android:textStyle="bold"
+     android:layout_below="@+id/mat_image"
+     android:layout_alignLeft="@+id/textView11"
+     android:layout_alignStart="@+id/textView11"
+     android:id="@+id/textView12" />
+
+
+
+ <ImageButton
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:adjustViewBounds="true"
+        android:id="@+id/tn_image"
+        android:src="@drawable/tn"
+        android:layout_above="@+id/emp_image"
+        android:layout_alignLeft="@+id/mat_image"
+        android:layout_alignStart="@+id/mat_image" />
+
+    <ImageButton
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:adjustViewBounds="true"
+        android:id="@+id/mat_image"
+        android:src="@drawable/mat"
+        android:layout_alignTop="@+id/emp_image"
+        android:layout_toRightOf="@+id/text_home"
+        android:layout_toEndOf="@+id/text_home" />
+
+
+</RelativeLayout>
+
+

@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    tools:context="com.example.dell.gofree.Helper">
+    <TextView
+        android:id="@+id/txt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="select your category of help:"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"/>
+
+    <Spinner
+        android:id="@+id/spinner_helper_type"
+        android:layout_below="@+id/txt"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+
+    <TextView
+        android:id="@+id/txt1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Means of help:"
+        android:layout_below="@+id/spinner_helper_type"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"/>
+
+    <Spinner
+        android:id="@+id/spinner_helper"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt1"
+        android:layout_marginTop="20dp">
+    </Spinner>
+
+    <RelativeLayout
+        android:id="@+id/sublay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/spinner_helper">
+
+        <RelativeLayout
+            android:id="@+id/NGO_detail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:visibility="gone">
+
+            <EditText
+                android:id="@+id/name_of_NGO"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Name of NGO" />
+
+            <EditText
+                android:id="@+id/designation"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_below="@+id/name_of_NGO"
+                android:layout_marginTop="20dp"
+                android:hint="Designation" />
+
+            <EditText
+                android:id="@+id/type_of_help"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_below="@+id/designation"
+                android:layout_marginTop="20dp"
+                android:hint="Type of help" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/vol_detail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:visibility="gone">
+
+            <EditText
+                android:id="@+id/type_of_help_vol"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="20dp"
+                android:hint="Type of help"
+                android:inputType="textMultiLine" />
+
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/address_helper"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sublay"
+        android:layout_marginTop="20dp">
+
+        <EditText
+            android:id="@+id/address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:hint="Address"
+            android:inputType="textMultiLine"/>
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/address"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="420dp"
+        android:text="Submit"/>
+
+</RelativeLayout>

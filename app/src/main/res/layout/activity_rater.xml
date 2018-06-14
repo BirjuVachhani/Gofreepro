@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.dell.gofree.Rater">
+
+    <TextView
+        android:id="@+id/rate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Rate for problems in your area?"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <Spinner
+        android:id="@+id/spinner_rater"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/rate"
+        android:layout_marginTop="20dp">
+    </Spinner>
+
+    <TextView
+        android:id="@+id/action"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/spinner_rater"
+        android:text="Action to be taken?"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"/>
+
+    <Spinner
+        android:id="@+id/spinner_act"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/action"
+        android:layout_marginTop="20dp">
+    </Spinner>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/spinner_act"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="Submit"/>
+
+</RelativeLayout>
+
